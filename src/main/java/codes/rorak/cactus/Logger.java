@@ -1,5 +1,6 @@
 package codes.rorak.cactus;
 
+import io.github.cdimascio.dotenv.Dotenv;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.OutputStream;
@@ -76,6 +77,7 @@ public class Logger {
         err(message, logLevel);
         System.err.print("|||| More info: " );
         e.printStackTrace(System.err);
+        System.exit(1);
     }
 
     private static boolean bit(int n, int k) {
