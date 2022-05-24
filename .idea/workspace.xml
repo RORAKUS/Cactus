@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8b3d03ba-70f4-459d-b093-3ac3a4ef99ef" name="Changes" comment="intellij auto manage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codes/rorak/cactus/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codes/rorak/cactus/Logger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codes/rorak/cactus/bot/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codes/rorak/cactus/bot/Bot.java" afterDir="false" />
     </list>
+    <list id="442fe344-c537-473a-86ec-7c394951d608" name="AutoManage" comment="intellij auto manage" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,6 +68,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8b3d03ba-70f4-459d-b093-3ac3a4ef99ef" name="Changes" comment="" />
+      <changelist id="442fe344-c537-473a-86ec-7c394951d608" name="Workspace" comment="" />
       <created>1653321571322</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -151,7 +151,28 @@
       <option name="project" value="LOCAL" />
       <updated>1653400094412</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="intellij auto manage">
+      <created>1653400845128</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1653400845128</updated>
+    </task>
+    <task id="LOCAL-00013" summary="bugfixes">
+      <created>1653400856873</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1653400856873</updated>
+    </task>
+    <task id="LOCAL-00014" summary="intellij auto manage">
+      <created>1653400874868</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1653400874868</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,6 +198,7 @@
     <MESSAGE value="added new dependency for .ENV" />
     <MESSAGE value="Intellij auto edit" />
     <MESSAGE value="added" />
+    <MESSAGE value="bugfixes" />
     <MESSAGE value="intellij auto manage" />
     <option name="LAST_COMMIT_MESSAGE" value="intellij auto manage" />
   </component>
