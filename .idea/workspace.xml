@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b3d03ba-70f4-459d-b093-3ac3a4ef99ef" name="Changes" comment="Intellij auto edit" />
+    <list default="true" id="8b3d03ba-70f4-459d-b093-3ac3a4ef99ef" name="Changes" comment="intellij auto manage">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codes/rorak/cactus/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codes/rorak/cactus/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codes/rorak/cactus/bot/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codes/rorak/cactus/bot/Bot.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,7 +132,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653399914206</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added">
+      <created>1653400085616</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1653400085616</updated>
+    </task>
+    <task id="LOCAL-00011" summary="intellij auto manage">
+      <created>1653400094412</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1653400094412</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,6 +171,8 @@
     <MESSAGE value="Added start for bot" />
     <MESSAGE value="added new dependency for .ENV" />
     <MESSAGE value="Intellij auto edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Intellij auto edit" />
+    <MESSAGE value="added" />
+    <MESSAGE value="intellij auto manage" />
+    <option name="LAST_COMMIT_MESSAGE" value="intellij auto manage" />
   </component>
 </project>
