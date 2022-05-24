@@ -6,13 +6,12 @@ import com.sun.net.httpserver.HttpServer;
 
 import java.io.IOException;
 import java.io.OutputStream;
-import java.net.BindException;
 import java.net.InetSocketAddress;
 import java.nio.charset.StandardCharsets;
 
 public class WebServer implements HttpHandler {
     public static void start() {
-        Thread th = new Thread(new WebServer()::invoke);
+        Thread th = new Thread(new WebServer()::exec);
         th.setName("WebServer");
         th.start();
     }
@@ -22,7 +21,7 @@ public class WebServer implements HttpHandler {
         server.setExecutor(null);
         server.start();
     }
-    private void invoke() {
+    private void exec() {
         try {
             run();
         } catch (IOException e) {
