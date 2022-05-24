@@ -70,10 +70,10 @@ public class Logger {
     public static void err(String message, int logLevel) {
         note("[ERROR] " + message, logLevel, stderr_old, true);
     }
-    public static void err(String message, Exception e) {
+    public static void err(String message, Throwable e) {
         err(message, e, 61);
     }
-    public static void err(String message, Exception e, int logLevel) {
+    public static void err(String message, Throwable e, int logLevel) {
         err(message, logLevel);
         System.err.print("|||| More info: " );
         e.printStackTrace(System.err);
