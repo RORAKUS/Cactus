@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b3d03ba-70f4-459d-b093-3ac3a4ef99ef" name="Changes" comment="Changed err(String, Exception) to err(String, Throwable)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codes/rorak/cactus/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codes/rorak/cactus/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codes/rorak/cactus/WebServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codes/rorak/cactus/WebServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codes/rorak/cactus/bot/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codes/rorak/cactus/bot/Bot.java" afterDir="false" />
-    </list>
+    <list default="true" id="8b3d03ba-70f4-459d-b093-3ac3a4ef99ef" name="Changes" comment="Intellij auto edit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +93,42 @@
       <option name="project" value="LOCAL" />
       <updated>1653396619706</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added joining and basic startup events">
+      <created>1653399828246</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653399828246</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Renames method invoke to exec">
+      <created>1653399864176</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1653399864176</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added start for bot">
+      <created>1653399885789</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1653399885789</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added new dependency for .ENV">
+      <created>1653399901548</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1653399901549</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Intellij auto edit">
+      <created>1653399914206</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1653399914206</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +148,11 @@
     <MESSAGE value="Added classes&#10;Edited pom.xml" />
     <MESSAGE value="Changed structure, implemented WebServer.java and Logger.java" />
     <MESSAGE value="Changed err(String, Exception) to err(String, Throwable)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed err(String, Exception) to err(String, Throwable)" />
+    <MESSAGE value="Added joining and basic startup events" />
+    <MESSAGE value="Renames method invoke to exec" />
+    <MESSAGE value="Added start for bot" />
+    <MESSAGE value="added new dependency for .ENV" />
+    <MESSAGE value="Intellij auto edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intellij auto edit" />
   </component>
 </project>
