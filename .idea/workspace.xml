@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b3d03ba-70f4-459d-b093-3ac3a4ef99ef" name="Changes" comment="intellij auto manage">
+      <change afterPath="$PROJECT_DIR$/src/main/java/codes/rorak/cactus/bot/CommandType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/codes/rorak/cactus/bot/LogMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codes/rorak/cactus/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codes/rorak/cactus/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codes/rorak/cactus/bot/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codes/rorak/cactus/bot/Bot.java" afterDir="false" />
+    </list>
+    <list id="442fe344-c537-473a-86ec-7c394951d608" name="AutoManage" comment="intellij auto manage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <list id="442fe344-c537-473a-86ec-7c394951d608" name="AutoManage" comment="intellij auto manage" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -172,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653400874868</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="intellij auto manage">
+      <created>1653401606939</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1653401606939</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
