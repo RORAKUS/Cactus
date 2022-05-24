@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b3d03ba-70f4-459d-b093-3ac3a4ef99ef" name="Changes" comment="Added classes&#10;Edited pom.xml">
-      <change afterPath="$PROJECT_DIR$/src/main/java/codes/rorak/cactus/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codes/rorak/cactus/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codes/rorak/cactus/WebServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codes/rorak/cactus/bot/Bot.java" afterDir="false" />
+    <list default="true" id="8b3d03ba-70f4-459d-b093-3ac3a4ef99ef" name="Changes" comment="Changed err(String, Exception) to err(String, Throwable)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Bot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HttpServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codes/rorak/cactus/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codes/rorak/cactus/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codes/rorak/cactus/WebServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codes/rorak/cactus/WebServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codes/rorak/cactus/bot/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codes/rorak/cactus/bot/Bot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,13 +35,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "preferences.fileTypes"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codes.rorak.cactus.Main" />
+      <module name="Cactus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codes.rorak.cactus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -68,7 +85,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653322541714</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changed structure, implemented WebServer.java and Logger.java">
+      <created>1653333408111</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653333408111</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Changed err(String, Exception) to err(String, Throwable)">
+      <created>1653396619706</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653396619706</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,6 +117,8 @@
     <MESSAGE value="Created main project structure" />
     <MESSAGE value="Settuped main classes, pom.xml" />
     <MESSAGE value="Added classes&#10;Edited pom.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added classes&#10;Edited pom.xml" />
+    <MESSAGE value="Changed structure, implemented WebServer.java and Logger.java" />
+    <MESSAGE value="Changed err(String, Exception) to err(String, Throwable)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed err(String, Exception) to err(String, Throwable)" />
   </component>
 </project>
