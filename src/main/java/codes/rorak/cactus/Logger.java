@@ -2,7 +2,6 @@ package codes.rorak.cactus;
 
 import org.jetbrains.annotations.NotNull;
 
-import java.io.IOException;
 import java.io.OutputStream;
 import java.io.PrintStream;
 import java.time.LocalDateTime;
@@ -45,14 +44,14 @@ public class Logger {
     public static void note(String message, int logLevel, PrintStream wr, boolean line) {
         String datetime = bit(logLevel, 0) || bit(logLevel, 1) ?
                 "[" + (bit(logLevel, 0) ? time() : "") + (bit(logLevel, 1) ? (bit(logLevel, 0) ? " " : "") + date() : "") + "] " : "";
-        String thread = bit(logLevel, 2) ? " [THREAD#" + Thread.currentThread().getName() + "] " : "";
+        String thread = bit(logLevel, 2) ? "[THREAD#" + Thread.currentThread().getName() + "] " : "";
         String debugInfo =
                 bit(logLevel, 3) || bit(logLevel, 4) || bit(logLevel, 5) ? "[" +
                         (bit(logLevel, 4) ? clazz() + ".java" : "") +
                         (bit(logLevel, 4) && bit(logLevel, 5) ? ":" : "") +
                         (bit(logLevel, 5) ? line() : "") +
                         ((bit(logLevel, 5) && bit(logLevel, 3)) || (bit(logLevel, 4) && bit(logLevel, 3)) ? " " : "") +
-                        (bit(logLevel, 3) ? "in " + method() : "")
+                        (bit(logLevel, 3) ? "in " + method() + "()" : "")
                         + "] " : "";
 
         wr.print(datetime + thread + debugInfo + message + (line ? "\n" : ""));

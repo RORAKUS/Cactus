@@ -14,6 +14,8 @@ import javax.security.auth.login.LoginException;
 import java.io.File;
 import java.util.Objects;
 
+import static codes.rorak.cactus.Logger.log;
+
 public class Bot extends ListenerAdapter {
     public static void start() {
         Thread th = new Thread(new Bot()::run);
@@ -32,7 +34,7 @@ public class Bot extends ListenerAdapter {
     }
 
     private JDA me;
-    private static final String TOKEN = Dotenv.configure().directory("/src/main/resources").load().get("TOKEN");
+    private static final String TOKEN = Dotenv.load().get("TOKEN");
     private void exec() throws LoginException {
         me = JDABuilder.createDefault(TOKEN, GatewayIntent.getIntents(32750))
                 .addEventListeners(this).build();
@@ -40,24 +42,24 @@ public class Bot extends ListenerAdapter {
 
     //region StartupEvents
     @Override public void onReady(@NotNull ReadyEvent ev) {
-        Logger.log("Ready! Total guild count: " + ev.getGuildTotalCount() + ". Available: " + ev.getGuildAvailableCount());
+        log("Ready! Total guild count: " + ev.getGuildTotalCount() + ". Available: " + ev.getGuildAvailableCount());
     }
     @Override public void onResumed(@NotNull ResumedEvent ev) {
-        Logger.log("Resumed!");
+        log("Resumed!");
     }
     @Override public void onReconnected(@NotNull ReconnectedEvent ev) {
-        Logger.log("Reconnected!");
+        log("Reconnected!");
     }
     @Override public void onDisconnect(@NotNull DisconnectEvent ev) {
         try {
-            Logger.log("Disconnected!! Reason: " + (ev.isClosedByServer() ? "Closed by server!" : Objects.requireNonNull(ev.getCloseCode()).getMeaning()) +
+            log("Disconnected!! Reason: " + (ev.isClosedByServer() ? "Closed by server!" : Objects.requireNonNull(ev.getCloseCode()).getMeaning()) +
                     (Objects.requireNonNull(ev.getCloseCode()).isReconnect() ? " Reconnecting..." : ""));
         } catch (Exception ex) {
-            Logger.log("Disconnected!! Not closed by server, but CloseCode still null!!");
+            log("Disconnected!! Not closed by server, but CloseCode still null!!");
         }
     }
     @Override public void onShutdown(@NotNull ShutdownEvent ev) {
-        Logger.log("Shut down! Code: " + ev.getCode());
+        log("Shut down! Code: " + ev.getCode());
     }
     @Override public void onException(@NotNull ExceptionEvent ev) {
         if (!ev.isLogged()) {
