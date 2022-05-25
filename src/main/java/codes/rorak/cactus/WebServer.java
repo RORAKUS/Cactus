@@ -39,7 +39,7 @@ public class WebServer implements HttpHandler {
                     </head>
                     <body>
                         <h1>You can close this</h1>
-                        <!-- The question is - shall you? -->
+                        <!-- The question is - should you? -->
                     </body>
                 </html>
                 """;
